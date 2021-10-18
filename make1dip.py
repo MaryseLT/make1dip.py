@@ -23,38 +23,10 @@ def clean_count(directory):
         print("-----------")
 
 
-        # with open(listpath,'r') as f:
-            # f.readlines()
-            # print(f.readlines())
-            # print(f.read())
-            # print(f.readline())
-            # print("-----------")
-
         # for x in media:
         #     count +=1
 
         """ my attmempt below """
-        ##https://github.com/bentley-historical-library/bhl_born_digital_utils/blob/f5e1ea8aa253bedef65412f21efbec4e449e879a/bhl_born_digital_utils/make_dips.py#L44
-
-        # ffmpeg_path = get_config_setting("ffmpeg", default="ffmpeg")
-
-        #https://github.com/kkroening/ffmpeg-python/issues/251#issuecomment-623913956
-
-        #.run(cmd='/path_to/ffmpeg',capture_stdout=True)
-        #https://github.com/kkroening/ffmpeg-python/issues/251#issuecomment-623913956
-
-        # ffmpeg_path = pathlib.Path().resolve("ffmpeg")
-
-        #PermissionError: [Errno 13] Permission denied: PosixPath('/Users/maryse/Desktop')
-        # print(ffmpeg_path)
-
-        #https://stackoverflow.com/questions/65836756/python-ffmpeg-wont-accept-path-why
-        # (
-        # ffmpeg
-        # .concat(input_video, merged_audio, v=1, a=1)
-        # .output("mix_delayed_audio.mp4")
-        # .run(overwrite_output=True, cmd=r'c:\FFmpeg\bin\ffmpeg.exe')
-        # )
 
 
         # cmd = [
@@ -81,24 +53,9 @@ def clean_count(directory):
         # os.remove(vid_list)
         results = [barcode,exit_code]
 
-        #"list.txt": No such file or directory
-        #https://github.com/bramp/ffmpeg-cli-wrapper/issues/147
-
-
-        """ BHL baroque example """
-        #https://github.com/bentley-historical-library/baroque/blob/1325e4a7270be9e929325505a550c553692111a7/baroque/wav_bext_chunk_validation.py#L42
-
-        # cmd = [bwfmetaedit_path, "--out-core", path_to_wav]
-        # bwfmetaedit_csv = subprocess.check_output(cmd, stderr=subprocess.STDOUT)
-        #
-        # subprocess.call('ffmpeg.exe -f concat -i list.txt -c copy outcome.mp4')
-
-        """ EXAMPLE """
-        ## https://stackoverflow.com/questions/56920546/combine-mp4-files-by-order-based-on-number-from-filenames-in-python/56931581
-
-
-        # return count
-        return results
+        
+        return count
+        #return results
     """ END OF topDir """
 
 
