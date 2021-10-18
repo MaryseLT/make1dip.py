@@ -14,3 +14,5 @@ For example:
 - FILE_NAME-008.mp4 
 - FILE_NAME-009.mp4 
 - FILE_NAME-010.mp4 
+
+Once the script has finished executing, delete the 'list.txt' file from the directory.
